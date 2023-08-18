@@ -1,0 +1,66 @@
+body {
+  
+    background-image: url("Simon_bg.jpg");
+    background-size: cover;
+    font-family: 'Handjet';
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+.gameScreen{
+    text-align: center;
+    width:100%;
+    height:95vh;
+}
+.wrong {
+    background-color: red;
+}
+
+h1,
+h2 {
+    color: #fff;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    border: 10px solid #FFF;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.blue {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.flashColor {
+    background-color: white;
+}
+
+.clickColor {
+    background-color: green;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+h1 {
+    text-decoration: dashed;
+}
