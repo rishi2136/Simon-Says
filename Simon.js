@@ -23,6 +23,8 @@ function gameFlash(btn) {
 
 function userFlash(btn) {
     btn.classList.add("clickColor");
+    let progress = document.querySelector(".progress-click");
+    progress.src = "./audio/click-sound.wav";
     setTimeout(function () {
         btn.classList.remove("clickColor");
     }, 250);
@@ -55,6 +57,8 @@ function highScore(score) {
 let gameScreen = document.querySelector(".gameScreen");
 function wrong() {
     gameScreen.classList.add("wrong");
+    let lose = document.querySelector(".game-over-click");
+    lose.src="./audio/game-over.mp3";
     setTimeout(function () {
         gameScreen.classList.remove("wrong");
     }, 200);
